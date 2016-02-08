@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.header, .footer{
+	
+	width: 100%;	
+	height: auto; 
+	text-align: center;
+	color: white;
+	background-color: #212121; 
+	float: left;
+	clear: both;
+	font-family: 'Lato', sans-serif;
+	flex-grow: 1;
+	
+	
+} 
+.footer .container{background-color: #212121; }
+.container{
+	width: 100%;
+	height: auto;
+ 	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+	background: #009688;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}           
+ 
+.left{
+text-align: left;
+float: left;
+box-sizing: border-box;
+padding: 5px; 
+width: 50%;
+flex-grow: 1;
+}
+.right{text-align: center;
+float: right;
+box-sizing: border-box;
+padding: 5px; 
+width: 50%;
+flex-grow: 1;
+}
+.news{
+	height: auto;
+	width: 100%;
+	background-color: #9E9E9E;
+	color: black;
+	margin: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	flex-grow: 1;
+}
+
+@media screen and (max-width: 900px){
+	.sidebar, .content{
+				width: 50%;
+				
+			}
+}
+
+@media screen and (max-width: 680px){
+	.sidebar, .content{
+				width: 60%;
+				
+				clear: both;
+				padding: 20px;	
+			}
+}
